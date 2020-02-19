@@ -11,7 +11,7 @@ def sleep():
         print(time.ctime().__str__())
         msg = time.ctime().__str__()
         LineNotify.lineNotifyMessage(msg)
-        time.sleep(20)
+        time.sleep(30)
 
 # 用 yahoo finance
 def plot(stock_id, stock_bak_id):
